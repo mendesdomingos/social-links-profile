@@ -20,4 +20,50 @@ main .card {
   width: 340px;
   height: 550px;
   background-color: hsl(0, 0%, 12%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  margin-top: 40px;
+  border-radius: 50%;
+}
+
+.text {
+  padding: 20px;
+}
+.text h1 {
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+}
+.text span {
+  font-weight: 700;
+  color: hsl(75, 94%, 57%);
+  font-size: 0.9rem;
+}
+
+p {
+  color: hsl(0, 0%, 100%);
+  font-size: 0.9rem;
+}
+
+.btn {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  background-color: aliceblue;
+  padding: 10px 85px;
+  text-decoration: none;
 }
