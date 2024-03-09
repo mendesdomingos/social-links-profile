@@ -40,7 +40,7 @@ main {
 }
 
 img {
-    width: 100px;
+    width: 90px;
     margin-top: 40px;
     border-radius: 50%;
 }
@@ -77,9 +77,19 @@ p {
         align-items: center;
         justify-content: center;
         height: 45px;
-        background-color: aliceblue;
+        background-color: $Grey;
+        color: $White;
+        font-weight: 600;
+        font-size: 0.9rem;
         padding: 10px 85px;
         text-decoration: none;
+        border-radius: 0.5em;
+    }
+
+    a:hover {
+        background-color: $Green;
+        color: $Dark-Grey;
+        transition-duration: 0.2s;
     }
 }
 
