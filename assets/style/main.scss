@@ -1,0 +1,36 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+// Variables
+$White: hsl(0, 0%, 100%);
+$Grey: hsl(0, 0%, 20%);
+$Dark-Grey: hsl(0, 0%, 12%);
+$Off-Black: hsl(0, 0%, 8%);
+$Green: hsl(75, 94%, 57%);
+
+// Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Content
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: $Off-Black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .card {
+        width: 340px;
+        height: 550px;
+        background-color: $Dark-Grey;
+    }
+}
+
