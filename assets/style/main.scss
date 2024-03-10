@@ -66,30 +66,34 @@ p {
     font-size: 0.9rem;
 }
 
-.btn {
-    margin-top: 20px;
+ul {
+    list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    
-    a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 45px;
+    gap: 15px;
+    margin-top: 15px;
+
+    li {
         background-color: $Grey;
-        color: $White;
         font-weight: 600;
         font-size: 0.9rem;
-        padding: 10px 85px;
-        text-decoration: none;
         border-radius: 0.5em;
-    }
+        cursor: pointer;
 
-    a:hover {
-        background-color: $Green;
-        color: $Dark-Grey;
-        transition-duration: 0.2s;
+        a {
+            text-decoration: none;
+            color: $White;
+            display: block;
+            padding: 13px 85px;
+        }
     }
 }
 
+li:hover a {
+    color: $Dark-Grey;
+}
+
+li:hover {
+    background-color: $Green;
+    transition-duration: 0.2s;
+}

@@ -52,27 +52,32 @@ p {
   font-size: 0.9rem;
 }
 
-.btn {
-  margin-top: 20px;
+ul {
+  list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
+  margin-top: 15px;
 }
-.btn a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 45px;
+ul li {
   background-color: hsl(0, 0%, 20%);
-  color: hsl(0, 0%, 100%);
   font-weight: 600;
   font-size: 0.9rem;
-  padding: 10px 85px;
-  text-decoration: none;
   border-radius: 0.5em;
+  cursor: pointer;
 }
-.btn a:hover {
-  background-color: hsl(75, 94%, 57%);
+ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  padding: 13px 85px;
+}
+
+li:hover a {
   color: hsl(0, 0%, 12%);
+}
+
+li:hover {
+  background-color: hsl(75, 94%, 57%);
   transition-duration: 0.2s;
 }
